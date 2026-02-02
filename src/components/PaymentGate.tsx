@@ -1,10 +1,12 @@
 import './PaymentGate.css';
 
 export const PaymentGate = () => {
-    const handlePayment = () => {
-        // You can integrate with Razorpay, Stripe, or any payment gateway here
-        alert('Payment integration coming soon! Contact for development.');
-    };
+  const handlePayment = () => {
+  const upiLink =
+    'upi://pay?pa=piyushsagarofficial-1@oksbi&pn=Piyush%20Sagar&am=2999&cu=INR&tn=Payment';
+
+  window.location.href = upiLink;
+};
 
     return (
         <section className="payment-gate">
