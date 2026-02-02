@@ -1,0 +1,21 @@
+/* =====================================================
+   EDUCATION COMPONENT STYLES
+   ===================================================== */
+
+.education {
+    background: var(--color-bg-secondary);
+}
+
+.education__timeline {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.education__timeline .timeline-item {
+    padding-left: var(--spacing-xl);
+}
+
+.education__timeline .glass-card {
+    margin-left: var(--spacing-lg);
+    background: var(--color-bg-glass);
+}

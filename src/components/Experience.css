@@ -1,0 +1,16 @@
+/* =====================================================
+   EXPERIENCE COMPONENT STYLES
+   ===================================================== */
+
+.experience__timeline {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.experience__timeline .timeline-item {
+    padding-left: var(--spacing-xl);
+}
+
+.experience__timeline .glass-card {
+    margin-left: var(--spacing-lg);
+}

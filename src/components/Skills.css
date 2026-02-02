@@ -1,0 +1,111 @@
+/* =====================================================
+   SKILLS COMPONENT STYLES
+   ===================================================== */
+
+.skills__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-2xl);
+}
+
+.skills__group-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.skills__group-icon {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-accent-gradient);
+    border-radius: var(--radius-lg);
+    color: var(--color-bg-primary);
+}
+
+.skills__group-title {
+    font-size: var(--text-2xl);
+    font-weight: 700;
+}
+
+.skills__list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+/* Tools Section */
+.skills__tools {
+    margin-top: var(--spacing-4xl);
+    text-align: center;
+}
+
+.skills__tools-title {
+    font-size: var(--text-2xl);
+    margin-bottom: var(--spacing-2xl);
+    color: var(--color-text-secondary);
+}
+
+.skills__tools-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-lg);
+}
+
+.skills__tool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-lg);
+    background: var(--color-bg-glass);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    min-width: 120px;
+    transition: all var(--transition-base);
+}
+
+.skills__tool:hover {
+    border-color: var(--color-accent-primary);
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-glow);
+}
+
+.skills__tool-abbr {
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    font-weight: 800;
+    background: var(--color-accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.skills__tool-name {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .skills__content {
+        grid-template-columns: 1fr;
+    }
+
+    .skills__tools-grid {
+        gap: var(--spacing-md);
+    }
+
+    .skills__tool {
+        min-width: 100px;
+        padding: var(--spacing-md);
+    }
+
+    .skills__tool-abbr {
+        font-size: var(--text-2xl);
+    }
+}
