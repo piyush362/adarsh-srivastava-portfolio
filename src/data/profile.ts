@@ -9,7 +9,7 @@ export const profileData: ProfileData = {
     contact: {
         email: "adarshxsrivastav@gmail.com",
         phone: "+91-7270871614",
-        address: "B-33 Ravindra Palli Near Purana Post Office, Lucknow, Uttar Pradesh"
+        address: "Somewhere in India"
     },
 
     languages: [
