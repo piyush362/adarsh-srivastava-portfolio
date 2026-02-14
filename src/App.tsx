@@ -1,21 +1,21 @@
 import './App.css';
-import { PaymentGate } from './components/PaymentGate';
-// import { Navbar } from './components/Navbar';
-// import { Hero } from './components/Hero';
-// import { About } from './components/About';
-// import { Skills } from './components/Skills';
-// import { Experience } from './components/Experience';
-// import { Education } from './components/Education';
-// import { Contact } from './components/Contact';
-// import { Footer } from './components/Footer';
+// import { PaymentGate } from './components/PaymentGate';
+import { Navbar } from './components/Navbar';
+import { Hero } from './components/Hero';
+import { About } from './components/About';
+import { Skills } from './components/Skills';
+import { Experience } from './components/Experience';
+import { Education } from './components/Education';
+import { Contact } from './components/Contact';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
     <>
       {/* Payment Gate - Unlock Full Portfolio */}
-      <PaymentGate />
+      {/* <PaymentGate /> */}
 
-      {/* Full Portfolio - Uncomment after payment
+      {/* Full Portfolio - Uncomment after payment */}
       <Navbar />
       <main>
         <Hero />
@@ -26,7 +26,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-      */}
+     
     </>
   );
 }
